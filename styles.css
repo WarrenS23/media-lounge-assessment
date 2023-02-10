@@ -267,6 +267,7 @@
     width: 100%;
     height: 80vh;
     min-height: 320px;
+    overflow-y: scroll;
 }
 
 .swiper-pagination {
@@ -285,8 +286,20 @@
     .brand {
         justify-content: flex-start;
     }
+    .main-container {
+      width: 70vw;
+    }
+    .main-text {
+      margin-top: 0% !important;
+    }
+    .main-text-h1 {
+      font-size: 45px;
+    }
+    .main-text-p {
+      display: none;
+    }
     .can-image {
-        margin-top: 15%;
+        /* margin-top: 15%; */
         width: 200% !important;
         right: 75% !important;
     }
@@ -379,11 +392,10 @@
 
     .swiper {
         height: 85vh;
-
     }
 
     .main-text {
-        margin-top: 0;
+        margin: 20% 0 5% 0;
         align-items: center;
         text-align: center;
     }
@@ -392,7 +404,7 @@
         position: relative;
         width: 155%;
         right: 45%;
-        top: 0;
+        top: 15%;
     }
 
     .swiper-pagination {
